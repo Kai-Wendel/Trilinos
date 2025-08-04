@@ -115,6 +115,7 @@ int main(int argc, char *argv[]) {
     #else
     std::cerr << "Galeri or Xpetra not enabled.  Exiting..." << std::endl;
     return EXIT_SUCCESS;        // Otherwise CTest will pick it up as
+                                // failure, which it isn't really
     #endif
   } else {
     // create a Map
