@@ -24,6 +24,7 @@
 #include <Teuchos_Tuple.hpp>
 #include <Teuchos_VerboseObject.hpp>
 #include <Teuchos_StackedTimer.hpp>
+#include <Teuchos_TimeMonitor.hpp>
 #include <Teuchos_ParameterList.hpp>
 #include <Teuchos_ParameterXMLFileReader.hpp>
 
